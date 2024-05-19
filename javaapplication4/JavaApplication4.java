@@ -11,13 +11,14 @@ public class JavaApplication4 {
     public static void main(String[] args) {
   
         // Test de la classe NombrePair
-        int nombre = 6;
-        System.out.println("Le nombre " + nombre + " est pair : " + Pair.estPair(nombre));
+        int num = 6;
+        System.out.println("Le nombre " + num + " est pair : " + Pair.estPair(num));
 
         // Test de la classe PGCD
         int a = 24;
         int b = 36;
         System.out.println("Le PGCD de " + a + " et " + b + " est : " + PGCD.pgcd(a, b));
+        //test
 
         // Test de la classe Somme
         int[] tableau = {1, 2, 3, 4, 5};
