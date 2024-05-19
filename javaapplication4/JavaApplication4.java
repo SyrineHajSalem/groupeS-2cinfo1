@@ -11,8 +11,8 @@ public class JavaApplication4 {
     public static void main(String[] args) {
   
         // Test de la classe NombrePair
-        int num = 6;
-        System.out.println("Le nombre " + num + " est pair : " + Pair.estPair(num));
+        int number = 6;
+        System.out.println("Le nombre " + number + " est pair : " + Pair.estPair(number));
 
         // Test de la classe PGCD
         int a = 24;
